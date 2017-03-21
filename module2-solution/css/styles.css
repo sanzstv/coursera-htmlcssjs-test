@@ -71,6 +71,8 @@ h2{
 }
 @media (max-width: 767px){
 	.box{
-		width: 98%;
+		width: 100%;
+		margin-left:0;
+		margin-right: 0;
 	}
 }
