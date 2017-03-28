@@ -1,0 +1,52 @@
+html{
+	font-family: Helvetica, Arial, sans-serif;
+}
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:active{
+	color: inherit;
+}
+.navbar-header{
+	background-color: #666;
+	color: #000;
+}
+.navbar-default .navbar-brand{
+	color: #fff;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.nav-list{
+	font-size: 1.5em;
+}
+#main-content{
+	padding: 0 50px;
+}
+.category{
+	background-color: #666;
+	color: #fff;
+	padding: 10px;
+	font-size: 16px;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	color: #fff;
+
+}
+
+#food-cats{
+		background-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > li > a{
+	color: #000;
+	font-size: 18px;
+		background-color: #e7e7e7;
+
+	text-align: center;
+    border-bottom: 1px solid #666;
+}
+.navbar-default .navbar-nav > li:last-child a{
+	border: none;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+	color: #000;
+}
