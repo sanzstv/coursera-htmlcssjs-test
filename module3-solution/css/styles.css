@@ -6,6 +6,9 @@ html{
 .navbar-brand:active{
 	color: inherit;
 }
+.navbar-default{
+	background-color: #666;
+}
 .navbar-header{
 	background-color: #666;
 	color: #000;
@@ -33,9 +36,7 @@ html{
 
 }
 
-#food-cats{
-		background-color: #e7e7e7;
-}
+
 .navbar-default .navbar-nav > li > a{
 	color: #000;
 	font-size: 18px;
@@ -48,4 +49,9 @@ html{
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
 	color: #000;
+}
+@media (max-width: 767px){
+	#food-cats{
+			background-color: #e7e7e7;
+	}
 }
